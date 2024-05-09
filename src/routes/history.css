@@ -1,0 +1,33 @@
+.history-container {
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.history-container > * {
+    font-size: 20px;
+    font-family: Candara, serif;
+    padding-bottom: 10px;
+}
+
+.delete-button {
+    margin: auto;
+    display: block;
+    font-size: 20px;
+    padding: 5px 18px;
+    border-radius: 5px;
+    border: transparent;
+    background-color: darkred;
+    color: white;
+    font-family: Candara, serif;
+    font-weight: lighter;
+}
+.delete-button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.3);
+}
+.delete-button:active {
+    box-shadow: 0 0 12px 3px rgba(0, 0, 0, 0.3);
+}

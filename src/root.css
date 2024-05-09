@@ -1,0 +1,34 @@
+#menu {
+    width: 100%;
+    background-color: darkslategray;
+    margin-bottom: 20px;
+}
+
+nav, main {
+    margin: auto;
+    width: 720px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    padding: 15px 0;
+}
+
+li a {
+    padding: 15px;
+    font-size: 30px;
+    color: #fff;
+    font-family: Candara, serif;
+    text-decoration: none;
+    margin-bottom: 3px;
+    font-weight: lighter;
+}
+
+li a.active {
+    background-color: #203636;
+}
+
+li a.pending {
+    color: #bbbbbb;
+}
